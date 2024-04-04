@@ -67,12 +67,13 @@ nav .searchBar {
 
 nav .searchBar .searchDropdownBox {
 
-    max-width: 4vw;
+    max-width: 3vw;
     padding-top: 17px;
     padding-bottom: 17px;
     font-size: 20px;
     background-color: rgb(245, 239, 239);
     border-radius: 6px;
+    padding-left: 10px;
 }
 
 nav .searchBar input {
@@ -85,3 +86,42 @@ nav .searchBar input {
     border-radius: 5px;
 
 }
+
+
+
+nav .changeCountryOrRegion {
+    color: rgb(232, 228, 228);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin-top: 8px;
+    padding: 10px;
+    gap: 16px;
+}
+
+nav .changeCountryOrRegion :nth-child(1) {
+    padding-right: 5px;
+    max-height: 7vh;
+    margin-top: 20px;
+
+}
+
+nav .changeCountryOrRegion :nth-child(2) {
+
+
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .changeCountryOrRegion :nth-child(2) img {
+
+    margin-bottom: 20px;
+}
+
+/* nav .changeCountryOrRegion img {
+    /* max-width: 5vw;
+     height: 10vh;
+    padding-top: 23px; } */
