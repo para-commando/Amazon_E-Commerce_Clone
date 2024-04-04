@@ -125,3 +125,35 @@ nav .changeCountryOrRegion :nth-child(2) img {
     /* max-width: 5vw;
      height: 10vh;
     padding-top: 23px; } */
+
+nav .userAccountDetails {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+nav .userAccountDetails :nth-child(1) {
+    /* display: flex; */
+    font-size: 15px;
+    /* justify-content: center; */
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* align-items: center; */
+}
+
+nav .userAccountDetails :nth-child(2) {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 900;
+    align-items: center;
+    max-width: 40vw;
+}
+
+nav .userAccountDetails :nth-child(2) img {
+    height: 30px;
+    width: 30px;
+
+}
