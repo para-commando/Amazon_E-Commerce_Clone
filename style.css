@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .amazonIcon img {
+    max-width: 5vw;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+nav .locationIcon img {
+    max-width: 5vw;
+    color: white;
+    height: 10vh;
+    padding-top: 23px;
+}
+
+nav .locationIcon {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px
+}
+
+nav .locationIcon div {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .locationIcon div :nth-child(1) {
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    font-weight: 900;
+    padding-left: 3px;
+}
+
+nav .locationIcon div :nth-child(2) {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    font-weight: 900;
+    padding-left: 3px;
+
+}
+
+nav .searchBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    padding: 15px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .searchBar .searchDropdownBox {
+
+    max-width: 4vw;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 20px;
+    background-color: rgb(245, 239, 239);
+    border-radius: 6px;
+}
+
+nav .searchBar input {
+
+    margin-left: 2px;
+    padding-right: 30vw;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
