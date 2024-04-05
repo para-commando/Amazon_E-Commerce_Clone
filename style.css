@@ -234,3 +234,46 @@
      width: 25px;
      height: 25px;
  }
+
+
+ .carouselSection {
+     max-width: 100vw;
+     max-height: 40vh;
+     height: 40vh;
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1)), url("backgroundImageForBody.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-left: 15px;
+     margin-right: 15px;
+ }
+
+ .carouselSlider {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     position: static;
+ }
+
+ .carouselSection .carouselSlider img {
+     width: 90px;
+     height: 50px;
+     margin-top: 20vh;
+ }
+
+ .productSuggestions {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 550px 550px 550px 550px;
+     column-gap: 9px;
+     justify-content: center;
+     align-items: center;
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+
+ .productSuggestions .rows {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/1;
+ }
