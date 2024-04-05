@@ -25,6 +25,7 @@
 
  nav .locationIcon img {
      max-width: 20px;
+     max-height: 20px;
      padding-top: 15px;
  }
 
@@ -61,10 +62,7 @@
      display: flex;
      flex-direction: row;
      margin-top: 2px;
-     padding-left: 30px;
-     justify-content: center;
-     align-items: center;
-     margin-left: 10px;
+     padding-left: 10px;
  }
 
  nav .searchBar .searchDropdownBox {
@@ -84,47 +82,39 @@
      padding-right: 300px;
      font-size: 16px;
      border-radius: 8px;
-     padding-top: 10px;
-     padding-bottom: 10px;
+
  }
 
 
  nav .changeCountryOrRegion {
      color: rgb(232, 228, 228);
-     font-size: 20px;
      font-weight: bold;
-     font-family: 'Courier New', Courier, monospace;
      display: flex;
-     margin-top: 8px;
-     padding: 10px;
-     gap: 16px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     padding-top: 10px;
+     padding-left: 6px;
+     gap: 5px;
  }
 
  nav .changeCountryOrRegion :nth-child(1) {
-     padding-right: 5px;
-     max-height: 7vh;
-     margin-top: 20px;
+     max-width: 20px;
+     max-height: 20px;
 
  }
 
  nav .changeCountryOrRegion :nth-child(2) {
+     font-size: 15px;
 
-
-     display: flex;
-     font-size: 20px;
-     justify-content: center;
-     align-items: center;
  }
 
- nav .changeCountryOrRegion :nth-child(2) img {
+ nav .changeCountryOrRegion :nth-child(3) img {
+     width: 20px;
+     height: 20px;
 
-     margin-bottom: 20px;
+
  }
-
- /* nav .changeCountryOrRegion img {
-    /* max-width: 5vw;
-     height: 10vh;
-    padding-top: 23px; } */
 
  nav .userAccountDetails {
      color: white;
