@@ -5,7 +5,6 @@
      margin: 0;
      padding: 0;
      font-family: "Poppins", sans-serif;
-
  }
 
  nav {
@@ -233,4 +232,219 @@
  .variousServices .browsingHistory img {
      width: 25px;
      height: 25px;
+ }
+
+
+ .carouselSection {
+     max-width: 100vw;
+     max-height: 40vh;
+     height: 40vh;
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1)), url("backgroundImageForBody.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-left: 15px;
+     margin-right: 15px;
+ }
+
+ .carouselSlider {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     position: static;
+ }
+
+ .carouselSection .carouselSlider img {
+     width: 90px;
+     height: 50px;
+     margin-top: 20vh;
+ }
+
+ .productSuggestions {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 400px 400px 400px 400px;
+     column-gap: 9px;
+     justify-content: center;
+     align-items: center;
+     margin-left: 25px;
+     margin-right: 25px;
+
+ }
+
+ .productSuggestions .boxes .box1 {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/1;
+     border: 1px solid rgb(240, 239, 239);
+     background-color: white;
+     padding: 20px
+ }
+
+ .productSuggestions .boxes .boxHeading {
+     font-weight: 600;
+     font-size: 20px;
+     padding-bottom: 10px;
+ }
+
+ .productSuggestions .boxes .rows {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .productSuggestions .boxes .rows .rowImg img {
+     height: 150px;
+     width: 150px;
+     object-fit: cover;
+ }
+
+ .productSuggestions .boxes .rows .rowImg .imgText {
+     font-weight: 400;
+     font-size: 12px;
+ }
+
+ .productSuggestions .boxes .boxFooters {
+     font-size: 12px;
+     color: rgb(10, 136, 179);
+     padding-top: 15px
+ }
+
+ .productSuggestions .boxes .box2 {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/2;
+     border: 1px solid rgb(240, 239, 239);
+     background-color: white;
+     padding: 20px
+ }
+
+ .productSuggestions .boxes .box3 {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/3;
+     border: 1px solid rgb(240, 239, 239);
+     background-color: white;
+     padding: 20px
+ }
+
+ .productSuggestions .box3 .innerRow3 {
+     margin: 15px;
+     display: flex;
+     justify-content: flex-start;
+ }
+
+ .productSuggestions .box3 .innerRow3 .box3Text {
+     font-size: 13px;
+ }
+
+ .productSuggestions .box3 .innerRow1 {
+     gap: 35px;
+ }
+
+ .productSuggestions .box3 .innerRow2 {
+     gap: 35px;
+ }
+
+ .productSuggestions .box4 {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/4;
+     border: 1px solid rgb(240, 239, 239);
+     background-color: white;
+     padding: 20px;
+ }
+
+ .productSuggestions .box4 .innerBoxes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ .productSuggestions .box4 .columns {
+     padding: 1px;
+ }
+
+ .productSuggestions .box4 .column1 :nth-child(1) {
+     font-weight: 800;
+     font-size: 20px;
+ }
+
+ .productSuggestions .box4 .column1 :nth-child(2) {
+     font-weight: 400;
+     font-size: 12px;
+     color: rgb(10, 136, 179);
+     margin-top: 6px;
+
+ }
+
+ .productSuggestions .box4 .columns {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+ .productSuggestions .box4 .innerBox2 img {
+     height: 100px;
+     width: 100px;
+ }
+
+ .productSuggestions .box4 .innerBox2 {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+ .productSuggestions .box4 .innerBox2 .limitedTimeDealProductText {
+     font-weight: 700;
+     font-size: 13px;
+
+ }
+ .productSuggestions .box4 .innerBox2 .discountData  {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+}
+ .productSuggestions .box4 .innerBox2 .discountData .percentage {
+     background-color: rgb(204, 1, 1);
+     color: white;
+     font-size: 10px;
+     font-weight: 700;
+     padding: 2px 4px;
+
+ }
+
+ .productSuggestions .box4 .innerBox2 .discountData .exclusivity {
+     color: rgb(204, 1, 1);
+     font-size: 12px;
+     font-weight: 700;
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData {
+     display: flex;
+     flex-direction: row;
+     gap:4px
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .finalPrice {
+     color: rgb(204, 1, 1);
+
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .priceBeforeDiscount {
+     margin-top: 3px;
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .aPrimeLogo img {
+     width: 50px;
+     height: 25px;
+
+     margin-top: 3px;
+
+     object-fit: contain;
  }
