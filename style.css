@@ -330,19 +330,121 @@
      padding: 20px
  }
 
- .productSuggestions .box3 .innerRow3{
+ .productSuggestions .box3 .innerRow3 {
      margin: 15px;
      display: flex;
      justify-content: flex-start;
  }
 
- .productSuggestions .box3 .innerRow3 .box3Text{
-    font-size: 13px;
-}
+ .productSuggestions .box3 .innerRow3 .box3Text {
+     font-size: 13px;
+ }
 
-.productSuggestions .box3 .innerRow1{
-    gap: 35px;
+ .productSuggestions .box3 .innerRow1 {
+     gap: 35px;
+ }
+
+ .productSuggestions .box3 .innerRow2 {
+     gap: 35px;
+ }
+
+ .productSuggestions .box4 {
+     display: flex;
+     flex-direction: column;
+     grid-area: 1/4;
+     border: 1px solid rgb(240, 239, 239);
+     background-color: white;
+     padding: 20px;
+ }
+
+ .productSuggestions .box4 .innerBoxes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ .productSuggestions .box4 .columns {
+     padding: 1px;
+ }
+
+ .productSuggestions .box4 .column1 :nth-child(1) {
+     font-weight: 800;
+     font-size: 20px;
+ }
+
+ .productSuggestions .box4 .column1 :nth-child(2) {
+     font-weight: 400;
+     font-size: 12px;
+     color: rgb(10, 136, 179);
+     margin-top: 6px;
+
+ }
+
+ .productSuggestions .box4 .columns {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+ .productSuggestions .box4 .innerBox2 img {
+     height: 100px;
+     width: 100px;
+ }
+
+ .productSuggestions .box4 .innerBox2 {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+ .productSuggestions .box4 .innerBox2 .limitedTimeDealProductText {
+     font-weight: 700;
+     font-size: 13px;
+
+ }
+ .productSuggestions .box4 .innerBox2 .discountData  {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
 }
-.productSuggestions .box3 .innerRow2{
-    gap: 35px;
-}
+ .productSuggestions .box4 .innerBox2 .discountData .percentage {
+     background-color: rgb(204, 1, 1);
+     color: white;
+     font-size: 10px;
+     font-weight: 700;
+     padding: 2px 4px;
+
+ }
+
+ .productSuggestions .box4 .innerBox2 .discountData .exclusivity {
+     color: rgb(204, 1, 1);
+     font-size: 12px;
+     font-weight: 700;
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData {
+     display: flex;
+     flex-direction: row;
+     gap:4px
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .finalPrice {
+     color: rgb(204, 1, 1);
+
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .priceBeforeDiscount {
+     margin-top: 3px;
+ }
+
+ .productSuggestions .box4 .innerBox2 .priceData .aPrimeLogo img {
+     width: 50px;
+     height: 25px;
+
+     margin-top: 3px;
+
+     object-fit: contain;
+ }
