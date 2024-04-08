@@ -265,7 +265,7 @@
      grid-template-columns: 1fr 1fr 1fr 1fr;
      grid-template-rows: 400px 400px 400px 400px;
      column-gap: 9px;
-     justify-content: center;
+          justify-content: center;
      align-items: center;
      margin-left: 25px;
      margin-right: 25px;
@@ -353,10 +353,16 @@
      flex-direction: column;
      grid-area: 1/4;
      border: 1px solid rgb(240, 239, 239);
-     background-color: white;
      padding: 20px;
+     row-gap: 20px;
+     background-color: lightgray;
  }
-
+ .productSuggestions .box4 .innerBox1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+}
  .productSuggestions .box4 .innerBoxes {
      display: flex;
      flex-direction: row;
@@ -395,7 +401,8 @@
  .productSuggestions .box4 .innerBox2 {
      display: flex;
      flex-direction: column;
-
+     background-color: white;
+     border: 1px solid rgb(214, 214, 214);
  }
 
 
@@ -404,12 +411,14 @@
      font-size: 13px;
 
  }
- .productSuggestions .box4 .innerBox2 .discountData  {
-  display: flex;
-  align-items: center;
-  gap: 3px;
 
-}
+ .productSuggestions .box4 .innerBox2 .discountData {
+     display: flex;
+     align-items: center;
+     gap: 3px;
+
+ }
+
  .productSuggestions .box4 .innerBox2 .discountData .percentage {
      background-color: rgb(204, 1, 1);
      color: white;
@@ -428,7 +437,7 @@
  .productSuggestions .box4 .innerBox2 .priceData {
      display: flex;
      flex-direction: row;
-     gap:4px
+     gap: 4px
  }
 
  .productSuggestions .box4 .innerBox2 .priceData .finalPrice {
