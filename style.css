@@ -7,6 +7,11 @@
      font-family: "Poppins", sans-serif;
  }
 
+ main {
+     background-color: rgb(247, 246, 246);
+
+ }
+
  nav {
      background-color: #131921;
      display: flex;
@@ -263,8 +268,9 @@
  .productSuggestions {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 400px 400px 400px 400px;
-     column-gap: 9px;
+     grid-template-rows: 410px 410px 410px 410px;
+     column-gap: 5px;
+     row-gap: 20px;
      justify-content: center;
      align-items: center;
      margin-left: 25px;
@@ -272,18 +278,18 @@
 
  }
 
- .productSuggestions .boxes .box1 {
+ .productSuggestions .box1 {
      display: flex;
      flex-direction: column;
      grid-area: 1/1;
-     border: 1px solid rgb(240, 239, 239);
      background-color: white;
-     padding: 20px
+     padding: 10px 30px;
+     margin: auto;
  }
 
  .productSuggestions .boxes .boxHeading {
      font-weight: 600;
-     font-size: 20px;
+     font-size: 21px;
      padding-bottom: 10px;
  }
 
@@ -296,14 +302,14 @@
 
 
  .productSuggestions .boxes .rows .rowImg img {
-     height: 150px;
-     width: 150px;
+     height: 140px;
+     width: 140px;
      object-fit: cover;
  }
 
  .productSuggestions .boxes .rows .rowImg .imgText {
      font-weight: 400;
-     font-size: 12px;
+     font-size: 10px;
  }
 
  .productSuggestions .boxes .boxFooters {
@@ -312,49 +318,60 @@
      padding-top: 15px
  }
 
- .productSuggestions .boxes .box2 {
+ .productSuggestions .box2 {
      display: flex;
      flex-direction: column;
      grid-area: 1/2;
-     border: 1px solid rgb(240, 239, 239);
      background-color: white;
-     padding: 20px
+     padding: 10px 30px;
+     margin: auto;
+     background-color: white;
+
  }
 
- .productSuggestions .boxes .box3 {
+ .productSuggestions .box3 {
      display: flex;
      flex-direction: column;
      grid-area: 1/3;
-     border: 1px solid rgb(240, 239, 239);
      background-color: white;
-     padding: 20px
+     padding: 5px 30px;
+     margin: auto;
  }
 
  .productSuggestions .box3 .innerRow3 {
-     margin: 15px;
+     margin: 10px;
      display: flex;
      justify-content: flex-start;
  }
 
  .productSuggestions .box3 .innerRow3 .box3Text {
-     font-size: 13px;
+     font-size: 12px;
  }
 
  .productSuggestions .box3 .innerRow1 {
-     gap: 35px;
+     gap: 20px;
  }
 
  .productSuggestions .box3 .innerRow2 {
-     gap: 35px;
+     gap: 20px;
  }
+
 
  .productSuggestions .box4 {
      display: flex;
      flex-direction: column;
      grid-area: 1/4;
-     border: 1px solid rgb(240, 239, 239);
+     padding: 0 10px;
+     row-gap: 33px;
+     margin: auto;
+ }
+
+ .productSuggestions .box4 .innerBox1 {
+     display: flex;
+     flex-direction: column;
      background-color: white;
      padding: 20px;
+     margin: 0;
  }
 
  .productSuggestions .box4 .innerBoxes {
@@ -369,7 +386,7 @@
 
  .productSuggestions .box4 .column1 :nth-child(1) {
      font-weight: 800;
-     font-size: 20px;
+     font-size: 16px;
  }
 
  .productSuggestions .box4 .column1 :nth-child(2) {
@@ -386,30 +403,40 @@
 
  }
 
+ .productSuggestions .box4 .innerBox2 {
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     padding: 10px;
+     margin: 0;
+
+ }
 
  .productSuggestions .box4 .innerBox2 img {
      height: 100px;
      width: 100px;
  }
 
- .productSuggestions .box4 .innerBox2 {
+
+ .productSuggestions .box4 .innerBox2 .limitedTimeDealProductImages {
      display: flex;
-     flex-direction: column;
+     justify-content: center;
 
  }
-
 
  .productSuggestions .box4 .innerBox2 .limitedTimeDealProductText {
      font-weight: 700;
      font-size: 13px;
 
  }
- .productSuggestions .box4 .innerBox2 .discountData  {
-  display: flex;
-  align-items: center;
-  gap: 3px;
 
-}
+ .productSuggestions .box4 .innerBox2 .discountData {
+     display: flex;
+     align-items: center;
+     gap: 3px;
+
+ }
+
  .productSuggestions .box4 .innerBox2 .discountData .percentage {
      background-color: rgb(204, 1, 1);
      color: white;
@@ -428,7 +455,7 @@
  .productSuggestions .box4 .innerBox2 .priceData {
      display: flex;
      flex-direction: row;
-     gap:4px
+     gap: 4px
  }
 
  .productSuggestions .box4 .innerBox2 .priceData .finalPrice {
@@ -447,4 +474,46 @@
      margin-top: 3px;
 
      object-fit: contain;
+ }
+
+
+ .productSuggestions .box5 {
+     display: flex;
+     flex-direction: column;
+     grid-row-start: 2;
+     grid-column-start: 1;
+     grid-row-end: 3;
+     grid-column-end: 3;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     position: relative;
+ }
+
+ .productSuggestions .box5 .boxTextBottomLeft {
+     position: absolute;
+     bottom: 30px;
+     left: 15px;
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     font-size: 15px;
+ }
+
+ .productSuggestions .box5 .boxTextTopLeft {
+     position: absolute;
+     top: 5px;
+     left: 15px;
+     color: rgb(255, 255, 255);
+
+ }
+
+ .productSuggestions .box5 .boxTextTopLeft .text1 {
+     font-weight: 700;
+     font-size: 18px;
+ }
+
+ .productSuggestions .box5 .boxTextTopLeft .text2 {
+
+     font-weight: 400;
+     font-size: 13px;
  }
