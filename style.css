@@ -477,45 +477,7 @@
  }
 
 
- .productSuggestions .box5 {
-     display: flex;
-     flex-direction: column;
-     grid-row-start: 2;
-     grid-column-start: 1;
-     grid-row-end: 2;
-     grid-column-end: 3;
-     width: 100%;
-     height: 100%;
-     margin: auto;
-  }
  
- .productSuggestions .box5 .boxTextBottomLeft {
-     position: absolute;
-     bottom: 30px;
-     left: 15px;
-     color: rgb(255, 255, 255);
-     font-weight: 600;
-     font-size: 15px;
- }
-
- .productSuggestions .box5 .boxTextTopLeft {
-     position: absolute;
-     top: 5px;
-     left: 15px;
-     color: rgb(255, 255, 255);
-
- }
-
- .productSuggestions .box5 .boxTextTopLeft .text1 {
-     font-weight: 700;
-     font-size: 18px;
- }
-
- .productSuggestions .box5 .boxTextTopLeft .text2 {
-
-     font-weight: 400;
-     font-size: 13px;
- }
 
  .productSuggestions .box6 {
      display: flex;
@@ -565,7 +527,7 @@
      width: 90%;
      height: 90%;
      padding: 20px;
-     /* padding: 10px 13px 13px 13px; */
+      /* padding: 10px 13px 13px 13px; */
      margin: auto;
  }
 
@@ -580,7 +542,7 @@
     flex-direction: row;
     gap: 20px;
 }
- 
-.productSuggestions .box7 .rows7 .rowImg .imgText{
+
+     .productSuggestions .box7 .rows7 .rowImg .imgText{
     font-size: 13px;
 }
