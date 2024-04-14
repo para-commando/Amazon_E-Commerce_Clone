@@ -411,8 +411,8 @@
  }
 
  .itemImages {
-     height: 102.2px;
-     width: 147.25px;
+     height: 105.2px;
+     width: 150.25px;
      cursor: pointer;
      display: block;
      top: 0px;
@@ -434,11 +434,11 @@
  .itemNames {
      color: black;
      background-color: #ffffff;
-     font-size: 13px;
+     font-size: 11px;
      font-weight: 500;
      line-height: 18px;
      height: 18px;
-     width: 100%;
+     width: 147.25px;
      max-height: 36px;
      overflow: hidden;
      box-sizing: border-box;
@@ -447,7 +447,7 @@
  }
 
  .boxFooters {
-     font-size: 15px;
+     font-size: 13px;
      line-height: 19px;
      white-space: nowrap;
      background-color: #ffffff;
