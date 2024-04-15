@@ -319,7 +319,7 @@ nav .addToCart :nth-child(2) {
 .outerGridBox {
     display: grid;
     grid-template-columns: 350px 350px 350px 350px;
-    grid-template-rows: 420px 420px 420px;
+    grid-template-rows: 420px 420px 420px 380px;
     column-gap: 15px;
     row-gap: 45px;
     justify-content: center;
@@ -642,4 +642,87 @@ nav .addToCart :nth-child(2) {
     width: 240px;
     padding: 5px 0 0 0;
     line-height: 16.9px
+}
+
+
+.related-items {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 5;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #0F1111;
+    height: 367.3px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 100%;
+}
+
+
+.related-items-header {
+    font-size: 13px;
+    line-height: 19px;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    color: #0F1111;
+    height: 35px;
+    width: 1390px;
+    margin: 10px 0 0 0;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.related-items-title {
+    height: 31.5px;
+    width: 133.625px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.related-items-all-deals {
+    background-color: #FFFFFF;
+    color: #25a7fe;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.related-items-products {
+    height: 300px;
+    width: auto;
+    margin: 0 0 14px 0;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow: scroll hidden;
+     display: flex;
+}
+
+.related-items-product-images {
+    height: 200px;
+    width: 225px;
+    max-height: 200px;
+    max-width: 270px;
+    cursor: pointer;
+}
+
+.related-items-product-images img {
+    height: 200px;
+    width: 225px;
+    object-fit: contain;
+
 }
