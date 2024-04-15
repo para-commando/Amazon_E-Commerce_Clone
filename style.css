@@ -536,9 +536,7 @@ nav .addToCart :nth-child(2) {
     color: #0F1111;
     height: 367.3px;
     width: 1460px;
-    overflow-x: auto;
-
-
+    overflow: scroll hidden;
 }
 
 
@@ -586,7 +584,7 @@ nav .addToCart :nth-child(2) {
     width: 4464px;
     margin: 0 0 10px 0;
     display: flex;
-    gap:20px;
+    gap: 20px;
     box-sizing: border-box;
 
 
@@ -597,6 +595,7 @@ nav .addToCart :nth-child(2) {
     height: 200px;
     width: 240px;
     cursor: pointer;
+    object-fit: contain;
 }
 
 
@@ -630,7 +629,7 @@ nav .addToCart :nth-child(2) {
 }
 
 
- .item-name {
+.item-name {
     font-size: 12px;
     text-align: left;
     background-color: #FFFFFF;
@@ -642,4 +641,3 @@ nav .addToCart :nth-child(2) {
     padding: 5px 0 0 0;
     line-height: 16.9px
 }
-
