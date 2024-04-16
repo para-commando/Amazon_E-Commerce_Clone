@@ -812,6 +812,7 @@ nav .addToCart :nth-child(2) {
     color: #0F1111;
     word-spacing: 0px;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .mainItemPrices {
@@ -870,4 +871,19 @@ nav .addToCart :nth-child(2) {
     height: 65px;
     width: 65.4px;
     object-fit: contain;
+    border-radius: 10px;
+}
+
+.box12 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-row-end: 5;
+    grid-column-end: 3;
+}
+
+.box12 {
+    grid-row-start: 5;
+    grid-column-start: 4;
+    grid-row-end: 5;
+    grid-column-end: 4;
 }
