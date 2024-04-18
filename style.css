@@ -748,7 +748,7 @@ nav .addToCart :nth-child(2) {
 }
 
 .curreny-symbol {
-    font-size: 13px;
+    font-size: 11px;
     color: black;
     background-color: #FFFFFF;
     display: flex;
@@ -762,9 +762,16 @@ nav .addToCart :nth-child(2) {
     background-color: #FFFFFF;
 
 }
+.decreased-percentage {
+    font-size: 20px;
+    color: rgb(197, 2, 2);
+    align-self: flex-start;
+    background-color: #FFFFFF;
+    padding-right: 5px;
 
+}
 .price-decimals {
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     background-color: #FFFFFF;
     display: flex;
@@ -961,4 +968,25 @@ nav .addToCart :nth-child(2) {
 .total-ratings {
     font-size: 20px;
     color: gray;
+}
+
+.sponsored-item-price{
+    align-self: flex-start;
+    width: 360px;
+    overflow: hidden;
+}
+.prime-logo{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.prime-logo img{
+    width: 40px;
+    height: 15px;
+    object-fit: contain;
+}
+.sponsored-item-old-mrp{
+    padding-top: 4px;
+    padding-right: 3px;
 }
