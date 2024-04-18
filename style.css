@@ -319,7 +319,7 @@ nav .addToCart :nth-child(2) {
 .outerGridBox {
     display: grid;
     grid-template-columns: 350px 350px 350px 350px;
-    grid-template-rows: 420px 420px 420px 380px 420px;
+    grid-template-rows: 420px 420px 420px 380px 420px 300px;
     column-gap: 15px;
     row-gap: 45px;
     justify-content: center;
@@ -542,7 +542,7 @@ nav .addToCart :nth-child(2) {
 }
 
 
-.todays-deals-header {
+.horizontal-box-header {
     font-size: 13px;
     line-height: 19px;
     white-space: nowrap;
@@ -745,11 +745,10 @@ nav .addToCart :nth-child(2) {
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
-    position: relative;
 }
 
 .curreny-symbol {
-    font-size: 13px;
+    font-size: 11px;
     color: black;
     background-color: #FFFFFF;
     display: flex;
@@ -763,9 +762,16 @@ nav .addToCart :nth-child(2) {
     background-color: #FFFFFF;
 
 }
+.decreased-percentage {
+    font-size: 20px;
+    color: rgb(197, 2, 2);
+    align-self: flex-start;
+    background-color: #FFFFFF;
+    padding-right: 5px;
 
+}
 .price-decimals {
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     background-color: #FFFFFF;
     display: flex;
@@ -845,7 +851,7 @@ nav .addToCart :nth-child(2) {
 }
 
 .item-sub-images {
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     box-sizing: border-box;
     height: 78.6px;
     width: 316px;
@@ -853,28 +859,28 @@ nav .addToCart :nth-child(2) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:6px;
-    padding:0 0 20px 0;
+    gap: 6px;
+    padding: 0 0 20px 0;
 }
 
-.sub-images{
+.sub-images {
     height: 65px;
     width: 65.4px;
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     cursor: pointer;
     border-radius: 8px;
     border: 1px solid gray;
-    padding:2px
- }
+    padding: 2px
+}
 
-.sub-images img{
+.sub-images img {
     height: 65px;
     width: 65.4px;
     object-fit: contain;
     border-radius: 10px;
 }
 
-.box12 {
+.box11 {
     grid-row-start: 5;
     grid-column-start: 3;
     grid-row-end: 5;
@@ -886,4 +892,101 @@ nav .addToCart :nth-child(2) {
     grid-column-start: 4;
     grid-row-end: 5;
     grid-column-end: 4;
+}
+
+.sponsored-product-bar {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 5;
+}
+
+.sub-box1 {
+    background-color: white;
+    height: 300px;
+    width: 890px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 285px 0 285px;
+    box-sizing: border-box;
+}
+
+.sponsored-product-image {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.sponsored-product-image img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+ }
+
+.sponsored-product-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.sponsored-product-name {
+    width: 500px;
+    height: 54px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 15px;
+    box-sizing: border-box;
+    word-wrap:break-word;
+}
+
+.ratings {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.stars {
+    width: 105px;
+    height: 20px;
+
+}
+
+.stars img {
+    width: 20px;
+    height: 20px;
+}
+
+.total-ratings {
+    font-size: 20px;
+    color: gray;
+}
+
+.sponsored-item-price{
+    align-self: flex-start;
+    width: 360px;
+    overflow: hidden;
+}
+.prime-logo{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.prime-logo img{
+    width: 40px;
+    height: 15px;
+    object-fit: contain;
+}
+.sponsored-item-old-mrp{
+    padding-top: 4px;
+    padding-right: 3px;
 }
