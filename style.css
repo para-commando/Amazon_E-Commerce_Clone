@@ -1076,7 +1076,7 @@ nav .addToCart :nth-child(2) {
 }
 
 .inspired-by-browsing-history {
-    width: 100vw;
+    width: 99vw;
     height: 700px;
     background-color: white;
     display: flex;
@@ -1120,7 +1120,7 @@ nav .addToCart :nth-child(2) {
 .recomendations-page-no {
     font-size: 14px;
     height: 24px;
-    width: 466.438px;
+    width: 440px;
     text-align: right;
 }
 
