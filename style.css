@@ -1158,7 +1158,7 @@ nav .addToCart :nth-child(2) {
 .inspired-by-section-product-image img {
     height: 160px;
     width: 160px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .inspired-by-section-product-text {
