@@ -6,20 +6,20 @@ Here are few glimpses of the desgin
 
 ### Landing section of the website
 
-
-
-
+<br />
+<br />
+<br />
 ![image](https://github.com/para-commando/Amazon_E-Commerce_Clone/assets/123434846/62a221dc-84c0-4826-8a66-6f70302440fa)
+<br />
 
-
-
-
+<br />
+<br />
 
 
 ### Products section of the website
-
-
-
+<br />
+<br />
+<br />
 
 ![image](https://github.com/para-commando/Amazon_E-Commerce_Clone/assets/123434846/99576205-f42e-4e48-939a-1cef25eca914)
 
