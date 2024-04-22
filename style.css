@@ -11,7 +11,11 @@
 
 main {
     background-color: rgb(247, 246, 246);
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+ }
 
 
 nav {
@@ -19,7 +23,7 @@ nav {
     display: flex;
     flex-direction: row;
     max-height: 8vh;
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     gap: 10px;
     position: sticky;
@@ -28,9 +32,11 @@ nav {
 
 
 nav .amazonIcon img {
-    max-width: 70px;
+    max-width: 80px;
+    height: 40px;
     padding-top: 10px;
     padding-left: 5px;
+    object-fit: contain;
 }
 
 
@@ -59,7 +65,7 @@ nav .locationIcon :nth-child(1) div img {
 
 
 nav .locationIcon div:nth-child(2)>div:nth-child(1) {
-    font-size: 10px;
+    font-size: 11px;
     color: rgb(171, 170, 170);
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -1400,8 +1406,8 @@ nav .addToCart :nth-child(2) {
 }
 
 .about-section-second {
-    height: 157.2px;
-    width: 1521.6px;
+    height: 140px;
+    width: 100vw;
     padding: 30px 0 30px 0;
     background-color: #131a22;
     color: rgb(168, 168, 168);
@@ -1421,12 +1427,32 @@ nav .addToCart :nth-child(2) {
     flex-direction: column;
     gap: 10px
 }
-.about-section-second-details-list{
+
+.about-section-second-details-list {
     display: flex;
     flex-direction: column;
     font-size: 12px;
 }
+
 .about-section-second-details-list-title {
     font-size: 14px;
     color: rgb(227, 225, 225);
- }
+}
+
+.footer-section {
+    height: 50px;
+    width: 100vw;
+    padding: 10px 0 30px 0;
+    background-color: #131a22;
+    color: rgb(213, 212, 212);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section :nth-child(1) {
+    display: flex;
+    gap: 15px
+}
