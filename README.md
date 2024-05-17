@@ -1,5 +1,5 @@
 # Amazon E-commerce website Clone
-![amazon-india-600x381](https://github.com/para-commando/Amazon_E-Commerce_Clone/assets/123434846/52e4f4c9-70fb-4dca-a5ce-5cddca7c79bf)
+![https___cloudfront-us-east-2 images arcpublishing com_reuters_F74366ADYZMUJEKQA45KFBGXL4](https://github.com/para-commando/Amazon_E-Commerce_Clone/assets/123434846/b6894d90-80c9-4b98-90db-af7c21630383)
 
 **Hi👋 there!** I hope **you are** having an **amazing** day 😃🌻. Please *allow me* to brief you on what this repository is holding, this is a **Frontend project** based on **HTML and CSS** which demonstrates the user interface **clone** of one of the **top** and most **famous E-commerce** platforms, **Amazon**.
 
